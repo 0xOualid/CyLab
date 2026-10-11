@@ -39,7 +39,7 @@ wpjvJAM{jhlzhy_k3jy9wa3k_m0212758}
 
 So here it's like the flag format, but it's still encoded. Here we will try `caesar cypher` because it's in the title.
 
-I used this site here `https://www.dcode.fr/caesar-cipher` because he's testing all the possible shifts.
+I used https://www.dcode.fr/caesar-cipher because he's testing all the possible shifts.
 
 ```text
 picoCTF{caesar_d3cr9pt3d_f0212758}

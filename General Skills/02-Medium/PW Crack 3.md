@@ -79,11 +79,11 @@ def str_xor(secret, key):
         new_key = new_key + key[i]
         i = (i + 1) % len(key)        
     return "".join([chr(ord(secret_c) ^ ord(new_key_c)) for (secret_c,new_key_c) in zip(secret,new_key)])
-    
 ###############################################################################
 
 flag_enc = open('level3.flag.txt.enc', 'rb').read()
 correct_pw_hash = open('level3.hash.bin', 'rb').read()
+
 
 def hash_pw(pw_str):
     pw_bytes = bytearray()
@@ -94,6 +94,8 @@ def hash_pw(pw_str):
 
 # This is the part of the code I added
 # ==========================================
+pos_pw_list = ["6997", "3ac8", "f0ac", "4b17", "ec27", "4e66", "865e"]
+
 for pw in pos_pw_list:
     my_hash = hash_pw(pw)
     if my_hash == correct_pw_hash:
@@ -111,11 +113,14 @@ def level_3_pw_check():
         return
     print("That password is incorrect")
 
+
+
 level_3_pw_check()
+
 
 # The strings below are 7 possibilities for the correct password. 
 #   (Only 1 is correct)
-pos_pw_list = ["8799", "d3ab", "1ea2", "acaf", "2295", "a9de", "6f3d"]
+# pos_pw_list = ["6997", "3ac8", "f0ac", "4b17", "ec27", "4e66", "865e"]
 ```
 
 ```shell

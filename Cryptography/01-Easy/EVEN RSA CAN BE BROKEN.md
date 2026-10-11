@@ -75,37 +75,17 @@ we need `d`.
 If we look closely into N, we find that `N` is a `even numbers`, which is unusual because N should always be odd (product of two odd primes). This anomaly hinted that one of the prime factors might be 2, the only even prime number.
 
 ```python
-from Crypto.Util.number import long_to_bytes
-
 N = 13689430518429143288497405567521960154403992933813751657075019694392835235807039184068386323187484841569326788150850023771710667309807615545527986806058194
 
 e = 65537
 
-cyphertext = 7483533393699131072109662691980909370249526541858436350516781046655660575953506554109018199741643102098462254830554989799920991065397019327571526948953641
+c = 7483533393699131072109662691980909370249526541858436350516781046655660575953506554109018199741643102098462254830554989799920991065397019327571526948953641
 
+q = N // 2
+d = pow(e, -1, q - 1)
+m = pow(c, d, q)
 
-# Calcul p and q
-p = 2
-q = N // p
-
-
-# Calcul phi_N
-# phi_N = (p − 1)(q − 1)
-# phi_N = (2 − 1)(q − 1)
-phi_N = q - 1
-
-
-# Calcul the private key d
-d = pow(e, -1, phi_N)
-
-
-# Decrypt the ciphertext
-m = pow(cyphertext, d, N)
-
-
-# convert the message to flag string
-flag = long_to_bytes(m)
-print(flag)
+print(m.to_bytes((m.bit_length() + 7) // 8, "big"))
 ```
 
 ```text

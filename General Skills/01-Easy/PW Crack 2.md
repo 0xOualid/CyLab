@@ -43,7 +43,7 @@ def level_2_pw_check():
 level_2_pw_check()
 ```
 
-The password is in `0x (hex representation)` in python. So we have to recreate the it.
+The password is in `0x (hex representation)` in python. So we have to recreate it.
 
 ```shell
 python3
