@@ -1,10 +1,12 @@
-# Scan Surprise Writeup
+## Scan Surprise
 
-> I've gotten bored of handing out flags as text. Wouldn't it be cool if they were an image instead?
-> You can download the challenge files here:
-> [challenge.zip](https://artifacts.picoctf.net/c_atlas/3/challenge.zip)
+I've gotten bored of handing out flags as text. Wouldn't it be cool if they were an image instead?
+You can download the challenge files here:
+[challenge.zip](https://artifacts.picoctf.net/c_atlas/3/challenge.zip)
 
-## Solution
+---
+
+## Notes
 
 ```shell
 wget "https://artifacts.picoctf.net/c_atlas/3/challenge.zip"
@@ -20,4 +22,3 @@ And if you don't have a phone you can use `CyberChef` as always.
 ```text
 picoCTF{p33k_@_b00_a81f0a35}
 ```
-

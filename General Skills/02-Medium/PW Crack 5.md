@@ -1,9 +1,11 @@
-# PW Crack 5 Writeup
+## PW Crack 5
 
-> Can you crack the password to get the flag?
-> Download the password checker [here](https://artifacts.picoctf.net/c/31/level5.py) and you'll need the encrypted [flag](https://artifacts.picoctf.net/c/31/level5.flag.txt.enc) and the [hash](https://artifacts.picoctf.net/c/31/level5.hash.bin) in the same directory too. Here's a [dictionary](https://artifacts.picoctf.net/c/31/dictionary.txt) with all possible passwords based on the password conventions we've seen so far.
+Can you crack the password to get the flag?
+Download the password checker [here](https://artifacts.picoctf.net/c/31/level5.py) and you'll need the encrypted [flag](https://artifacts.picoctf.net/c/31/level5.flag.txt.enc) and the [hash](https://artifacts.picoctf.net/c/31/level5.hash.bin) in the same directory too. Here's a [dictionary](https://artifacts.picoctf.net/c/31/dictionary.txt) with all possible passwords based on the password conventions we've seen so far.
 
-## Solution
+---
+
+## Notes
 
 ```shell
 wget "https://artifacts.picoctf.net/c/31/level5.py"
@@ -127,4 +129,3 @@ Please enter correct password for flag:
 ```text
 picoCTF{fl45h_5pr1ng1ng_cf341ff1}
 ```
-

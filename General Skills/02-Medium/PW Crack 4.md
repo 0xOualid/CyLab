@@ -1,10 +1,12 @@
-# PW Crack 4 Writeup
+## PW Crack 4
 
-> Can you crack the password to get the flag?
-> Download the password checker [here](https://artifacts.picoctf.net/c/20/level4.py) and you'll need the encrypted [flag](https://artifacts.picoctf.net/c/20/level4.flag.txt.enc) and the [hash](https://artifacts.picoctf.net/c/20/level4.hash.bin) in the same directory too.
-> There are 100 potential passwords with only 1 being correct. You can find these by examining the password checker script.
+Can you crack the password to get the flag?
+Download the password checker [here](https://artifacts.picoctf.net/c/20/level4.py) and you'll need the encrypted [flag](https://artifacts.picoctf.net/c/20/level4.flag.txt.enc) and the [hash](https://artifacts.picoctf.net/c/20/level4.hash.bin) in the same directory too.
+There are 100 potential passwords with only 1 being correct. You can find these by examining the password checker script.
 
-## Solution
+---
+
+## Notes
 
 ```shell
 wget "https://artifacts.picoctf.net/c/20/level4.py"
@@ -136,4 +138,3 @@ Please enter correct password for flag:
 ```text
 picoCTF{fl45h_5pr1ng1ng_cf341ff1}
 ```
-

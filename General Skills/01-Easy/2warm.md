@@ -1,8 +1,10 @@
-# 2warm Writeup
+## 2warm
 
-> Can you convert the number 42 (base 10) to binary (base 2)?
+Can you convert the number 42 (base 10) to binary (base 2)?
 
-## Solution
+---
+
+## Notes
 
 You can use `CyberChef` to make it easy. But you can use terminal too.
 
@@ -17,4 +19,3 @@ echo "obase=2; 42" | bc
 ```text
 picoCTF{101010}
 ```
-

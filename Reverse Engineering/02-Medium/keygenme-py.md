@@ -1,8 +1,10 @@
-# keygenme-py Writeup
+## keygenme-py
 
-> [keygenme-trial.py](https://challenge-files.picoctf.net/c_wily_courier/26c4c19e611e4d55e34f14e4126af55fca948f10a675c1cab67bde103cca9282/keygenme-trial.py)
+[keygenme-trial.py](https://challenge-files.picoctf.net/c_wily_courier/26c4c19e611e4d55e34f14e4126af55fca948f10a675c1cab67bde103cca9282/keygenme-trial.py)
 
-## Solution
+---
+
+## Notes
 
 ```shell
 wget "https://challenge-files.picoctf.net/c_wily_courier/26c4c19e611e4d55e34f14e4126af55fca948f10a675c1cab67bde103cca9282/keygenme-trial.py"
@@ -291,4 +293,3 @@ python3 full_flag.py
 ```text
 picoCTF{1n_7h3_kk3y_of_08c46aa4}
 ```
-

@@ -1,9 +1,11 @@
-# Shared Secrets Writeup
+## Shared Secrets
 
-> A message was encrypted using a shared secret... but it looks like one side of the exchange leaked something. Can you piece together the secret and get the flag?
-> Download the [message](https://challenge-files.picoctf.net/c_plain_mesa/c329ec031843662406ceb87159bc8703fb4d5c84b02ed5fee98dcc652f520e47/message.txt). And source [code](https://challenge-files.picoctf.net/c_plain_mesa/c329ec031843662406ceb87159bc8703fb4d5c84b02ed5fee98dcc652f520e47/encryption.py)
+A message was encrypted using a shared secret... but it looks like one side of the exchange leaked something. Can you piece together the secret and get the flag?
+Download the [message](https://challenge-files.picoctf.net/c_plain_mesa/c329ec031843662406ceb87159bc8703fb4d5c84b02ed5fee98dcc652f520e47/message.txt). And source [code](https://challenge-files.picoctf.net/c_plain_mesa/c329ec031843662406ceb87159bc8703fb4d5c84b02ed5fee98dcc652f520e47/encryption.py)
 
-## Solution
+---
+
+## Notes
 
 ```shell
 wget "https://challenge-files.picoctf.net/c_plain_mesa/c329ec031843662406ceb87159bc8703fb4d5c84b02ed5fee98dcc652f520e47/message.txt"
@@ -95,4 +97,3 @@ print(flag)
 ```text
 picoCTF{dh_s3cr3t_9982ffe6}
 ```
-

@@ -1,9 +1,11 @@
-# Enhance! Writeup
+## Enhance!
 
-> Download this image file and find the flag.
-> [Download image file](https://artifacts.picoctf.net/c/100/drawing.flag.svg)
+Download this image file and find the flag.
+[Download image file](https://artifacts.picoctf.net/c/100/drawing.flag.svg)
 
-## Solution
+---
+
+## Notes
 
 ```shell
 wget "https://artifacts.picoctf.net/c/100/drawing.flag.svg"
@@ -153,4 +155,3 @@ cat drawing.flag.svg | grep -oP '(?<=>)[^<]+(?=<)' | tr -d ' \n' | grep -oP 'pic
 ```text
 picoCTF{3nh4nc3d_aab729dd}
 ```
-

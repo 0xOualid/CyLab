@@ -1,8 +1,10 @@
-# Warmed Up Writeup
+## Warmed Up
 
-> What is 0x3D (base 16) in decimal (base 10)?
+What is 0x3D (base 16) in decimal (base 10)?
 
-## Solution
+---
+
+## Notes
 
 You can use `CyberChef` to make it easy. But you can use terminal too.
 
@@ -17,4 +19,3 @@ echo $((0x3D))
 ```text
 picoCTF{61}
 ```
-

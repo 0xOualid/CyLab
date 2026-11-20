@@ -1,9 +1,11 @@
-# Transformation Writeup
+## Transformation
 
-> I wonder what this really is...
-> [enc](https://challenge-files.picoctf.net/c_wily_courier/c54640eb53abf2f31d27f53f1547faf619e26b013130e3b506905cdc8f9aea2d/enc) ''.join([chr((ord(flag[i]) << 8) + ord(flag[i + 1])) for i in range(0, len(flag), 2)])
+I wonder what this really is...
+[enc](https://challenge-files.picoctf.net/c_wily_courier/c54640eb53abf2f31d27f53f1547faf619e26b013130e3b506905cdc8f9aea2d/enc) ''.join([chr((ord(flag[i]) << 8) + ord(flag[i + 1])) for i in range(0, len(flag), 2)])
 
-## Solution
+---
+
+## Notes
 
 ```shell
 wget "https://challenge-files.picoctf.net/c_wily_courier/c54640eb53abf2f31d27f53f1547faf619e26b013130e3b506905cdc8f9aea2d/enc"
@@ -43,4 +45,3 @@ print(flag)
 ```text
 picoCTF{16_bits_inst34d_of_8_b7f62ca5}
 ```
-

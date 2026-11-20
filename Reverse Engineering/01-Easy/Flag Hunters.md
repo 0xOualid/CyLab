@@ -1,9 +1,11 @@
-# Flag Hunters Writeup
+## Flag Hunters
 
-> Lyrics jump from verses to the refrain kind of like a subroutine call. There's a hidden refrain this program doesn't print by default. Can you get it to print it? There might be something in it for you.
-> The program's source code can be downloaded [here](https://challenge-files.picoctf.net/c_verbal_sleep/16af4dbf5dde07d6b920829561f50f7afe9e9e457733e422537c64525e1a6772/lyric-reader.py).
+Lyrics jump from verses to the refrain kind of like a subroutine call. There's a hidden refrain this program doesn't print by default. Can you get it to print it? There might be something in it for you.
+The program's source code can be downloaded [here](https://challenge-files.picoctf.net/c_verbal_sleep/16af4dbf5dde07d6b920829561f50f7afe9e9e457733e422537c64525e1a6772/lyric-reader.py).
 
-## Solution
+---
+
+## Notes
 
 ```shell
 wget "https://challenge-files.picoctf.net/c_verbal_sleep/16af4dbf5dde07d6b920829561f50f7afe9e9e457733e422537c64525e1a6772/lyric-reader.py"
@@ -162,4 +164,3 @@ Crowd: ;RETURN 0
 ```text
 picoCTF{70637h3r_f0r3v3r_836f0788}
 ```
-

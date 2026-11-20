@@ -1,9 +1,11 @@
-# CanYouSee Writeup
+## CanYouSee
 
-> How about some hide and seek?
-> Download this file [here](https://artifacts.picoctf.net/c_titan/5/unknown.zip).
+How about some hide and seek?
+Download this file [here](https://artifacts.picoctf.net/c_titan/5/unknown.zip).
 
-## Solution
+---
+
+## Notes
 
 First you have to download the image and see if you find something in the image visually. Using some online tools.
 
@@ -38,4 +40,3 @@ echo "cGljb0NURntNRTc0RDQ3QV9ISUREM05fNGRhYmRkY2J9Cg==" | base64 -d
 ```text
 picoCTF{ME74D47A_HIDD3N_4dabddcb}
 ```
-

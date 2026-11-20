@@ -1,9 +1,11 @@
-# interencdec Writeup
+## interencdec
 
-> Can you get the real meaning from this file.
-> Download the file [here](https://artifacts.picoctf.net/c_titan/109/enc_flag)
+Can you get the real meaning from this file.
+Download the file [here](https://artifacts.picoctf.net/c_titan/109/enc_flag)
 
-## Solution
+---
+
+## Notes
 
 ```shell
 wget "https://artifacts.picoctf.net/c_titan/109/enc_flag"
@@ -44,4 +46,3 @@ I used https://www.dcode.fr/caesar-cipher because he's testing all the possible 
 ```text
 picoCTF{caesar_d3cr9pt3d_f0212758}
 ```
-

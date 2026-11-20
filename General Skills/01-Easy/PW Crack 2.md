@@ -1,9 +1,11 @@
-# PW Crack 2 Writeup
+## PW Crack 2
 
-> Can you crack the password to get the flag?
-> Download the password checker [here](https://artifacts.picoctf.net/c/13/level2.py) and you'll need the encrypted [flag](https://artifacts.picoctf.net/c/13/level2.flag.txt.enc) in the same directory too.
+Can you crack the password to get the flag?
+Download the password checker [here](https://artifacts.picoctf.net/c/13/level2.py) and you'll need the encrypted [flag](https://artifacts.picoctf.net/c/13/level2.flag.txt.enc) in the same directory too.
 
-## Solution
+---
+
+## Notes
 
 ```shell
 wget "https://artifacts.picoctf.net/c/13/level2.py"
@@ -65,4 +67,3 @@ de76
 ```text
 picoCTF{tr45h_51ng1ng_489dea9a}
 ```
-

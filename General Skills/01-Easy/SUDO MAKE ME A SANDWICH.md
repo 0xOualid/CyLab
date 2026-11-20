@@ -1,9 +1,11 @@
-# SUDO MAKE ME A SANDWICH Writeup
+## SUDO MAKE ME A SANDWICH
 
-> Can you read the flag? I think you can!
-> ssh -p 53351 ctf-player@green-hill.picoctf.net using password 430838f7
+Can you read the flag? I think you can!
+ssh -p 53351 ctf-player@green-hill.picoctf.net using password 430838f7
 
-## Solution
+---
+
+## Notes
 
 First we have to login with SSH.
 
@@ -36,4 +38,3 @@ sudo emacs flag.txt
 ```text
 picoCTF{ju57_5ud0_17_c2c0d2e2}
 ```
-
